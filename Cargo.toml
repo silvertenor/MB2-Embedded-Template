@@ -15,4 +15,4 @@ rtt-target = "0.6.1"
 
 [dependencies.cortex-m]
 version = "0.7.7"
-features = ["inline-asm"]
+features = ["critical-section-single-core", "inline-asm"]
